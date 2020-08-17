@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "GiveBackToggledownfall",
+  "version": "${version}",
+  "name": "GiveBackToggledownfall",
+  "description": "A simple mod to add /toggledownfall back into the game",
+  "authors": [
+    "Orangemonkey68"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/GiveBackToggledownfall/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.orangemonkey68.givebacktoggledownfall.GiveBackToggledownfall"
+    ]
+  },
+  "mixins": [
+    "GiveBackToggledownfall.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.1+build.205",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
